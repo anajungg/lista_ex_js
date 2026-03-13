@@ -37,7 +37,6 @@ function somarNumeros(){
                 alert ("Por favor, digite um número válido!");
             }else{
                soma += numero; 
-               console.log(soma);
             }
 
             continuar = confirm ("Deseja adicionar mais um número.");
@@ -47,4 +46,20 @@ function somarNumeros(){
     console.log ("A soma dos números é: " + soma);
     }
 
-somarNumeros();
+// somarNumeros();
+
+function exercicio2(){
+ for (let i = 10; i >= 0; i--) {
+    console.log(i);}
+
+    {
+    console.log("Lançamento realizado!");
+}
+}
+// exercicio2();
+
+function exercicio3(){
+
+
+    
+}
