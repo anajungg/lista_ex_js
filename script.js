@@ -102,7 +102,15 @@ function exercicio4(){
 // exercicio4();
 
 function exercicio5(){
-let numero = 
 
+let numero = parseInt(prompt ("Digite um número inteiro:"));
+
+if(numero % 2 == 0){
+        numero += 1;
+    }else{
+        numero -= 1;
+    }
+console.log ("Valor final: " + numero); 
 
 }
+exercicio5();
