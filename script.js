@@ -125,4 +125,46 @@ function exercicio6(){
         console.log ("Sua letra é uma consoante!");
     }
 }
-exercicio6();
+// exercicio6();
+
+
+function exercicio7(){
+
+
+    let sabor = prompt("Digite o código do picolé... a)Chocolate - $1.50\nb)Morango - $2.50\nc)Creme - $2.50\nd)Manga\ne)Melancia - $3.40\nf)Vanilla ice - $3.00\ng)Céu azul - $3.60\nh)Brownie - $4.00\ni)Hawaiano - $5.00\n");
+
+    switch (sabor) {
+
+        case "a":
+            console.log("Chocolate - $1.50");
+            break;
+        case "b":
+            console.log("Morango - $2.50");
+            break;
+        case "c":
+            console.log("Creme - $2.50");
+            break;
+        case "d":
+            console.log("Manga - $3.20");
+            break;
+        case "e":
+            console.log("Melancia - $3.40");
+            break;
+        case "f":
+            console.log("Vanilla ice - $3.00");
+            break;
+        case "g":
+            console.log("Céu azul - $3.60");
+            break;
+        case "h":
+            console.log("Brownie - $4.00");
+            break;
+        case "i":
+            console.log("Hawaiano - $5.00");
+            break;
+       
+        default:
+            console.log("código inválido");
+    }
+}
+exercicio7();
