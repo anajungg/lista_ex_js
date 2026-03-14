@@ -182,4 +182,16 @@ console.log("O dobro da primeira variável somado ao triplo da segunda é: " +so
 let multiplicacao = a * b;
 console.log("A multiplicação das duas variáveis é de: " + multiplicacao);
 }
-exercicio8();
+// exercicio8();
+
+function exercicio9(){
+
+    let a = 18;
+    let b = 11;
+
+    if(a > b){
+    console.log(b + "," + a);
+
+}
+}
+exercicio9();
