@@ -191,7 +191,22 @@ function exercicio9(){
 
     if(a > b){
     console.log(b + "," + a);
+}
+}
+// exercicio9();
 
+function exercicio10(){
+
+let nome = prompt("Digite o seu nome: ");
+let salario = prompt ("Digite o seu salário bruto: ");
+
+let desconto = salario * 0.08;
+let diferenca = salario - desconto;
+
+console.log("Nome: " +nome);
+console.log("Valor do salário bruto é de: " +salario);
+console.log("O valor do desconto do INSS é de: " +desconto);
+console.log("O valor do salário líquido é de: " +diferenca); 
 }
-}
-exercicio9();
+exercicio10();
+
