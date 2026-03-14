@@ -113,4 +113,16 @@ if(numero % 2 == 0){
 console.log ("Valor final: " + numero); 
 
 }
-exercicio5();
+// exercicio5();
+
+function exercicio6(){
+
+    let letra = prompt("Digite uma letra do alfabeto: ");
+
+    if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
+        console.log ("Sua letra escolhida é uma vogal!");
+    } else{
+        console.log ("Sua letra é uma consoante!");
+    }
+}
+exercicio6();
