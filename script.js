@@ -102,7 +102,7 @@ function exercicio4(){
 // exercicio4();
 
 function exercicio5(){
+let numero = 
 
 
-    
 }
