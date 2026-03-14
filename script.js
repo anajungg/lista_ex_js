@@ -208,5 +208,34 @@ console.log("Valor do salário bruto é de: " +salario);
 console.log("O valor do desconto do INSS é de: " +desconto);
 console.log("O valor do salário líquido é de: " +diferenca); 
 }
-exercicio10();
+// exercicio10();
+
+function exercicio11(){
+
+    let salario = prompt("Digite o seu salário bruto:");
+    let taxa = 0;
+    let desconto = 0;
+    let diferenca = 0;
+
+    if (salario<=1000){
+    taxa = 8;
+    desconto = salario * 0.08;
+    diferenca = salario - desconto;
+
+    } else if (salario > 1000 && salario <= 1500){
+    taxa = 8.5;
+    desconto = salario * 0.085;
+    diferenca = salario - desconto;
+    } else if (salario > 1500){
+    taxa = 9;
+    desconto = salario* 0.09;
+    diferenca = salario - desconto; 
+    }
+
+    console.log("O valor do salário bruto: " +salario);
+    console.log("A Taxa de desconto é: " + taxa + "%");
+    console.log("O valor do desconto: " +desconto);
+    console.log("O valor do salário líquido: " +diferenca);
+    }
+exercicio11()
 
