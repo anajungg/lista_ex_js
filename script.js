@@ -60,6 +60,49 @@ function exercicio2(){
 
 function exercicio3(){
 
+let ganhoAnual = 0;
+let gastoAnual = 0;
+
+for (let i = 1; i <=12; i++){
+
+  let ganho = parseFloat(prompt("Digite o ganho do mês" + i));
+  let gasto = parseFloat(prompt("Digite o gasto do mês" + i)); 
+
+ganhoAnual += ganho;
+gastoAnual += gasto;
+}
+let saldo = ganhoAnual - gastoAnual;
+
+console.log ("Ganho anual: ", ganhoAnual);
+console.log ("Gasto anual: ", gastoAnual);
+console.log ("Saldo anual: ", saldo);
+
+if (saldo > 0){
+console.log ("A empresa teve lucro");
+} else {
+console.log ("A empresa teve prejuízo");
+}
+}
+// exercicio3();
+
+function exercicio4(){
+
+    let n1 = parseInt(prompt("Digite um número inteiro"));
+    let n2 = parseInt(prompt("Digite um número inteiro"));
+    let n3 = parseInt(prompt("Digite um número inteiro"));
+    let n4 = parseInt(prompt("Digite um número inteiro"));
+
+    let numeros = [n1, n2 , n3, n4];
+
+    numeros.sort((a,b) => b - a);
+
+    console.log ("Ordem decrescente: " +numeros);
+
+}
+// exercicio4();
+
+function exercicio5(){
+
 
     
 }
