@@ -127,7 +127,6 @@ function exercicio6(){
 }
 // exercicio6();
 
-
 function exercicio7(){
 
 
@@ -167,4 +166,20 @@ function exercicio7(){
             console.log("código inválido");
     }
 }
-exercicio7();
+// exercicio7();
+
+function exercicio8(){
+
+    let a = 4; 
+    let b = 6; 
+
+let diferenca = a - b;
+console.log("A diferença entre as duas variáveis é de: " + diferenca);
+
+let soma = (a * 2) + (b * 3);
+console.log("O dobro da primeira variável somado ao triplo da segunda é: " +soma);
+
+let multiplicacao = a * b;
+console.log("A multiplicação das duas variáveis é de: " + multiplicacao);
+}
+exercicio8();
