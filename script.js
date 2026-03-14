@@ -226,6 +226,7 @@ function exercicio11(){
     taxa = 8.5;
     desconto = salario * 0.085;
     diferenca = salario - desconto;
+
     } else if (salario > 1500){
     taxa = 9;
     desconto = salario* 0.09;
@@ -237,5 +238,5 @@ function exercicio11(){
     console.log("O valor do desconto: " +desconto);
     console.log("O valor do salário líquido: " +diferenca);
     }
-exercicio11()
+// exercicio11()
 
